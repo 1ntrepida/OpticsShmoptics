@@ -31,8 +31,7 @@ function getCurrentTabUrl(callback) {
     // tab.url is only available if the "activeTab" permission is declared.
     // If you want to see the URL of other tabs (e.g. after removing active:true
     // from |queryInfo|), then the "tabs" permission is required to see their
-    // "url" properties.
-    console.assert(typeof url == 'string', 'tab.url should be a string');
+    // "url" properties.9+..'string', 'tab.url should be a string');
 
     callback(url);
   });
